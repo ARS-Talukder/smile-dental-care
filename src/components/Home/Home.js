@@ -8,7 +8,7 @@ import './Home.css'
 const Home = () => {
     return (
         <div>
-            <h1 className='text-primary fw-bold'>Smile Dental Care</h1>
+            <h1 className='text-primary fw-bold'>Smile Dental <span className='text-danger'>Care</span> </h1>
             <Banner></Banner>
             <Services></Services>
             <ServiceDescription></ServiceDescription>
