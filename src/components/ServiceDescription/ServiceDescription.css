@@ -1,0 +1,30 @@
+.know-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.know-container-mini {
+    background-color: rgba(200, 151, 158, 0.625);
+    padding: 20px;
+    border: 1px solid rgb(144, 210, 144);
+    border-radius: 10px;
+}
+
+.know-container-mini h5 {
+    font-weight: bold;
+    font-size: 23px;
+    color: brown;
+}
+
+@media only screen and (max-width:576px) {
+    .know-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
